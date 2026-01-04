@@ -1,0 +1,9 @@
+! Code from Cisco IOS Cookbook that should be applied to all devices
+!
+!  1.22 - Locking Configuration Access
+!         This command ensures that only one individual/system can be in configuration terminal at a time.
+configure terminal
+configuration mode exclusive auto
+end
+!
+!  
